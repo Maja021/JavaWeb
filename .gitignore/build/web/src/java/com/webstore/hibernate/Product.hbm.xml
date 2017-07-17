@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 16, 2016 11:07:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.webstore.hibernate.Product" table="product" catalog="store" optimistic-lock="version">
+        <id name="productId" type="java.lang.Integer">
+            <column name="product_id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="45" not-null="true" unique="true" />
+        </property>
+        <property name="price" type="big_decimal">
+            <column name="price" precision="10" scale="4" not-null="true" />
+        </property>
+        <set name="buys" table="buy" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="product_id" />
+            </key>
+            <one-to-many class="com.webstore.hibernate.Buy" />
+        </set>
+    </class>
+</hibernate-mapping>

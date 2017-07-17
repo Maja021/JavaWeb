@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/dao/CustomerDAOImplementation.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/models/Product.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/services/BuyService.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/web/content/table.css</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/hibernate/Customer.hbm.xml</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/web/WEB-INF/jsp/product.jsp</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/controllers/BuyController.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/models/Customer.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/models/Buy.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/dao/CustomerDAO.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/services/CustomerServiceImplementation.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/dao/BuyDAOImplementation.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/controllers/ProductController.java</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/web/WEB-INF/jsp/customer.jsp</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/web/WEB-INF/jsp/buy.jsp</file>
+            <file>file:/C:/Users/Aleksandar/Documents/NetBeansProjects/WebStore/src/java/com/webstore/dao/BuyDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
