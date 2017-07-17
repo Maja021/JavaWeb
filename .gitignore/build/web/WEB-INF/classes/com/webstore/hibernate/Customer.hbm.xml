@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 16, 2016 11:07:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.webstore.hibernate.Customer" table="customer" catalog="store" optimistic-lock="version">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="customer_id" />
+            <generator class="identity" />
+        </id>
+        <property name="firstName" type="string">
+            <column name="first_name" length="45" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="45" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="45" not-null="true" />
+        </property>
+        <property name="date" type="date">
+            <column name="date" length="10" not-null="true" />
+        </property>
+        <set name="buys" table="buy" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="customer_id" />
+            </key>
+            <one-to-many class="com.webstore.hibernate.Buy" />
+        </set>
+    </class>
+</hibernate-mapping>

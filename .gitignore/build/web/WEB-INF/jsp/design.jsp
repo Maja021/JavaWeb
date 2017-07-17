@@ -1,0 +1,2 @@
+<link href="${pageContext.request.contextPath}/content/main.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/content/navbar.css" rel="stylesheet" type="text/css"/>
